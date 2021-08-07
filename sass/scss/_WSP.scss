@@ -1,0 +1,14 @@
+.WSP{
+    width: auto;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    z-index: 100;
+
+    &:hover{
+        transform: scale(1.2,1.2);
+        transition-duration: 0.8s;
+    }
+}

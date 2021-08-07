@@ -1,0 +1,22 @@
+%inherit{
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+}
+
+input{
+    @extend %inherit;
+}
+button{ 
+    @extend %inherit;
+}
+select{
+    @extend %inherit;
+}
+optgroup{
+    @extend %inherit;
+}
+textarea{
+    @extend %inherit;
+}

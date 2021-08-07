@@ -1,0 +1,10 @@
+$event : no;
+footer{
+        @if $event == no {
+        color: saddlebrown;
+      } @else if $event == navidad {
+        color: red;
+      } @else if $event == anuevo {
+        color: white;
+      }
+}

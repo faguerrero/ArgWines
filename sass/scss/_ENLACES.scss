@@ -1,0 +1,17 @@
+%enlaces{
+    text-decoration: none;
+    color: black;
+}
+
+
+link{
+    &:hover{
+        @extend %enlaces;
+    }
+}
+
+visited{
+    &:hover{
+        @extend %enlaces;
+    }
+}

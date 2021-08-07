@@ -1,0 +1,15 @@
+%img{
+    width: 75%;
+    height: 80%;
+    position: static;
+    float: right;
+}
+
+.imagenes{
+    @extend %img;
+
+    &:hover{
+        transform: scaleX(2px);
+        transition-duration: 0.5s;
+    }
+}
