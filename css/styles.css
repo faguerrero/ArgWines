@@ -10846,7 +10846,7 @@ textarea.form-control-lg {
   }
 }
 body {
-  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("assets/fondo.jpg");
+  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../assets/fondo.jpg");
   background-attachment: scroll;
   background-position: top left;
   background-size: auto;
@@ -10894,7 +10894,7 @@ p {
 }
 .section-heading .section-heading-lower {
   display: block;
-  font-size: 3rem;
+  font-size: 90%;
   font-weight: 100;
 }
 
